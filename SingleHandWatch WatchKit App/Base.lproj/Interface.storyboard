@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller contentMode="scaleAspectFit" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SingleHandWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" contentMode="scaleAspectFit" id="mek-Fo-OfQ">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" contentMode="scaleAspectFit" id="Phn-lP-MGv"/>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                    <connections>
+                        <outlet property="handImageContainer" destination="Phn-lP-MGv" id="CXS-d9-sDD"/>
+                        <outlet property="watchfaceContainer" destination="mek-Fo-OfQ" id="gJr-3t-aVN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="37"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+</document>
