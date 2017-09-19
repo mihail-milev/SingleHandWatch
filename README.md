@@ -12,3 +12,8 @@ This is an app, that cannot be distributed on the App Store. Apple does not allo
 I've decided to upload this code, because of two reasons:
 1. I would like to show, that there are (although very limited) possibilities to have some custom "watch faces". I hope that Apple would allow us at some point to develop our own watch faces. There are a lot of cool ideas out there, which are just missing and not possible to develop using "allowed" techniques.
 2. I wanted to learn Swift. This was my first app. Coming from an Objective-C and learning Elixir for several months, I wanted to see how good Swift mixes both worlds. I find it fascinating, how intelligent and clean code can be, when using all these techniques.
+
+
+# Screenshot
+
+![Time, date and calendar week](https://raw.githubusercontent.com/mihail-milev/SingleHandWatch/master/SingleHandWatch.png)
