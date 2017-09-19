@@ -21,3 +21,6 @@ I've decided to upload this code, because of two reasons:
 # Screenshot
 
 ![Time, date and calendar week](https://raw.githubusercontent.com/mihail-milev/SingleHandWatch/master/SingleHandWatch.png)
+
+# The second project
+Check out the first project [here](https://github.com/mihail-milev/SingleHandWatch2/).
